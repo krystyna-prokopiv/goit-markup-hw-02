@@ -78,8 +78,9 @@ color: #434455;}
         cursor: pointer;
 }
 
-.box-btn:hover
+.box-btn:hover,
 .box-btn:focus {background-color: #404BBF;}
+
 .benefits {}
 
 .benefits-title {}
