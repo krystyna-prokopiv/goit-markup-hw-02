@@ -19,7 +19,7 @@ ul {
 .logo {font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;}
@@ -57,9 +57,7 @@ ul {
     letter-spacing: 0.02em;
 color: #434455;}
 
-.address-link.mail {text-decoration: underline;
-    text-decoration-skip-ink: none;
-    }
+
 .box {background: #2e2f42;}
 
 .box-title {
@@ -77,8 +75,11 @@ color: #434455;}
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        cursor: pointer;
 }
 
+.box-btn:hover
+.box-btn:focus {background-color: #404BBF;}
 .benefits {}
 
 .benefits-title {}
@@ -111,7 +112,8 @@ color: #434455;}
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;}
+    color: #2e2f42;
+text-transform: capitalize;}
 
 .team-list {}
 
